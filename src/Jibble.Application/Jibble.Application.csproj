@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.3" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="PeopleOperations\Queries\GetPersonDetails\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Jibble.Domain\Jibble.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

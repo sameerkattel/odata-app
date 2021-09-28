@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Connected Services\OData Service\OData ServiceCsdl.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Connected Services\OData Service\OData ServiceCsdl.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.OData.Client" Version="7.9.2" />
+    <PackageReference Include="Microsoft.OData.Core" Version="7.9.2" />
+    <PackageReference Include="Microsoft.OData.Edm" Version="7.9.2" />
+    <PackageReference Include="Microsoft.Spatial" Version="7.9.2" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.12" />
+    <PackageReference Include="System.Text.Json" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Jibble.Application\Jibble.Application.csproj" />
+    <ProjectReference Include="..\Jibble.Domain\Jibble.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

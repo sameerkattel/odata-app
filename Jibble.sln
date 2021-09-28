@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jibble.Cli", "src\Jibble.Cli\Jibble.Cli.csproj", "{54C47F57-81D1-4B20-904F-57984E262180}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jibble.Application", "src\Jibble.Application\Jibble.Application.csproj", "{DC8FDD84-AE2D-4B65-A44E-6FBA4C3091AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jibble.InfraStructure", "src\Jibble.InfraStructure\Jibble.InfraStructure.csproj", "{30168818-1F0A-4DDB-A0E4-6A34E17EAEA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jibble.Domain", "src\Jibble.Domain\Jibble.Domain.csproj", "{2AE7F069-5EC3-4366-881B-EA55749D1702}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D4CA0571-9ACC-4CC7-8F70-948FF3F74E81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{49625CF7-E987-4013-B7C9-15C3653F5BD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DAAD78D1-8896-44BB-BF1C-8718C2F4047B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54C47F57-81D1-4B20-904F-57984E262180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C47F57-81D1-4B20-904F-57984E262180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C47F57-81D1-4B20-904F-57984E262180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C47F57-81D1-4B20-904F-57984E262180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC8FDD84-AE2D-4B65-A44E-6FBA4C3091AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8FDD84-AE2D-4B65-A44E-6FBA4C3091AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8FDD84-AE2D-4B65-A44E-6FBA4C3091AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8FDD84-AE2D-4B65-A44E-6FBA4C3091AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30168818-1F0A-4DDB-A0E4-6A34E17EAEA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30168818-1F0A-4DDB-A0E4-6A34E17EAEA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30168818-1F0A-4DDB-A0E4-6A34E17EAEA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30168818-1F0A-4DDB-A0E4-6A34E17EAEA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AE7F069-5EC3-4366-881B-EA55749D1702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AE7F069-5EC3-4366-881B-EA55749D1702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AE7F069-5EC3-4366-881B-EA55749D1702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AE7F069-5EC3-4366-881B-EA55749D1702}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54C47F57-81D1-4B20-904F-57984E262180} = {D4CA0571-9ACC-4CC7-8F70-948FF3F74E81}
+		{DC8FDD84-AE2D-4B65-A44E-6FBA4C3091AB} = {D4CA0571-9ACC-4CC7-8F70-948FF3F74E81}
+		{30168818-1F0A-4DDB-A0E4-6A34E17EAEA0} = {D4CA0571-9ACC-4CC7-8F70-948FF3F74E81}
+		{2AE7F069-5EC3-4366-881B-EA55749D1702} = {D4CA0571-9ACC-4CC7-8F70-948FF3F74E81}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E46E39EE-0F75-4379-9851-704CBC1F10D6}
+	EndGlobalSection
+EndGlobal
