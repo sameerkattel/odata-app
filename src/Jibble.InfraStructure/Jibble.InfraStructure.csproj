@@ -17,7 +17,7 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
     <PackageReference Include="Microsoft.OData.Client" Version="7.9.2" />
-    <PackageReference Include="Microsoft.OData.Core" Version="7.9.2" />
+    <PackageReference Include="Microsoft.OData.Core" Version="7.9.4" />
     <PackageReference Include="Microsoft.OData.Edm" Version="7.9.2" />
     <PackageReference Include="Microsoft.Spatial" Version="7.9.2" />
     <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
