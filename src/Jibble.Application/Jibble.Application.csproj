@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="EasyNetQ" Version="1.1.4.506" />
-    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.5" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.2.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
     <PackageReference Include="MongoDB.Driver" Version="2.3.0" />
   </ItemGroup>
